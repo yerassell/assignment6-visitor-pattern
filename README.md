@@ -4,7 +4,7 @@
 - Name: Assel Yermekkyzy
 - Group: SE-2524
 - Repository URL: https://github.com/yerassell/assignment6-visitor-pattern.git
-- Last commit: 274ace643aa7bc76ad46911867c8c1ba130848e7
+- Last commit: 53bc6dd15aad8cc226cb1bf4209c4948cc9cec7b
 
 
 ## Project purpose
