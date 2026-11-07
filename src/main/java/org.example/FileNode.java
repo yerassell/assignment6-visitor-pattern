@@ -1,4 +1,4 @@
-package filesystem;
+package org.example;
 
 public class FileNode implements Element {
     private String name;
@@ -16,9 +16,7 @@ public class FileNode implements Element {
     public DirectoryNode getParent() { return parent; }
 
     public void setParent(DirectoryNode parent) {
-        if (this.parent != null) {
-            throw new IllegalStateException("Already belongs to a directory");
-        }
+        if (this.parent != null) throw new IllegalStateException("Already has parent");
         this.parent = parent;
     }
 
