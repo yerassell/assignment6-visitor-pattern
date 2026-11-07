@@ -22,7 +22,6 @@ public class FileNode implements Element {
         this.parent = parent;
     }
 
-    @Override
     public void accept(Visitor visitor) {
         visitor.visit(this);
     }
